@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">worldometers.info</domain>
+        <domain includeSubdomains="true">wikipedia.org</domain>
+        <domain includeSubdomains="true">google.com.tr</domain>
+        <domain includeSubdomains="true">saglik.gov.tr</domain>
+        <domain includeSubdomains="true">worldtimeapi.org</domain>
+        <domain includeSubdomains="true">worldclockapi.com</domain>
+    </domain-config>
+</network-security-config>

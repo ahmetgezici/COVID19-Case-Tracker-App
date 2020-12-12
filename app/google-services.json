@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "715884526130",
+    "firebase_url": "https://covid19app-fc761.firebaseio.com",
+    "project_id": "covid19app-fc761",
+    "storage_bucket": "covid19app-fc761.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:715884526130:android:a5d1bc0fde649d2dfa5a2b",
+        "android_client_info": {
+          "package_name": "com.ahmetgezici.covid19app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "715884526130-0e9ao7q72v85lpas9c5uj3sss0fq4uu6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwZ0LI7oIBpQ7hAuUW20ef5irMeohdi7c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "715884526130-0e9ao7q72v85lpas9c5uj3sss0fq4uu6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

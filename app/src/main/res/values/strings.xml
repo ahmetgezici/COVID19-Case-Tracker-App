@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Covid-19 Canlı</string>
+    <string name="appwidget_text">Covid-19</string>
+    <string name="add_widget">Widget Ekle</string>
+</resources>
