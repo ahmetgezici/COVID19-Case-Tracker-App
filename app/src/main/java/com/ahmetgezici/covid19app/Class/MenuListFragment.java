@@ -7,6 +7,7 @@ import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.FrameLayout;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -39,6 +40,15 @@ public class MenuListFragment extends Fragment {
                     startActivity(intent);
                 }
                 return false;
+            }
+        });
+
+        FrameLayout frameLayout = view.findViewById(R.id.github);
+        frameLayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/ahmetgezici"));
+                startActivity(intent);
             }
         });
         return view;

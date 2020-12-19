@@ -2,4 +2,6 @@
     <string name="app_name">Covid-19 Canlı</string>
     <string name="appwidget_text">Covid-19</string>
     <string name="add_widget">Widget Ekle</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
