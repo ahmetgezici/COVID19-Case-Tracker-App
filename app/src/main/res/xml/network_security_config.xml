@@ -5,7 +5,5 @@
         <domain includeSubdomains="true">wikipedia.org</domain>
         <domain includeSubdomains="true">google.com.tr</domain>
         <domain includeSubdomains="true">saglik.gov.tr</domain>
-        <domain includeSubdomains="true">worldtimeapi.org</domain>
-        <domain includeSubdomains="true">worldclockapi.com</domain>
     </domain-config>
 </network-security-config>

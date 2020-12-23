@@ -15,7 +15,6 @@ public class ListViewService extends RemoteViewsService {
     public RemoteViewsFactory onGetViewFactory(Intent intent) {
 
         return new ListViewItemFactory(getApplicationContext(), intent);
-
     }
 
     static class ListViewItemFactory implements RemoteViewsFactory {

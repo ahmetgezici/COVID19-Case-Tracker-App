@@ -63,7 +63,6 @@ public class ForeGroundService extends Service {
     static Handler handler;
     static Runnable runnable, handlerRunnable;
 
-    private Looper serviceLooper;
     private ServiceHandler serviceHandler;
 
     boolean completeDataOK, completeDataOK2;
@@ -171,7 +170,7 @@ public class ForeGroundService extends Service {
         HandlerThread thread = new HandlerThread(" ", Process.THREAD_PRIORITY_BACKGROUND);
         thread.start();
 
-        serviceLooper = thread.getLooper();
+        Looper serviceLooper = thread.getLooper();
         serviceHandler = new ServiceHandler(serviceLooper);
 
         final RemoteViews view = new RemoteViews(getPackageName(), R.layout.covid_widget);
