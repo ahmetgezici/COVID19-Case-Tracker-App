@@ -31,7 +31,8 @@ Bunu değiştirmek için `res > xml > covid_widget_info.xml` yoluna ulaşarak `a
 -   [Recyclerview](https://developer.android.com/jetpack/androidx/releases/recyclerview)
 
 # Screenshot
-![drawing](https://github.com/ahmetgezici/COVID19-Case-Tracker-App/blob/master/Screenshots/covidapp1.png){width=50%} ![](https://github.com/ahmetgezici/COVID19-Case-Tracker-App/blob/master/Screenshots/covidapp2.png)
+![](https://github.com/ahmetgezici/COVID19-Case-Tracker-App/blob/master/Screenshots/covidapp1.png) ![](https://github.com/ahmetgezici/COVID19-Case-Tracker-App/blob/master/Screenshots/covidapp2.png)
+<img src="https://github.com/ahmetgezici/COVID19-Case-Tracker-App/blob/master/Screenshots/covidapp1.png" alt="" width="200" height="400" />
 
 # Widget
 ![](https://github.com/ahmetgezici/COVID19-Case-Tracker-App/blob/master/Screenshots/covidapp3.png)
