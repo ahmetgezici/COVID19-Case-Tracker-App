@@ -11,12 +11,12 @@
     app:edPosition="1"
     tools:context=".MainActivity">
 
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
         <com.google.android.material.appbar.AppBarLayout
-            android:id="@+id/appBarLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
@@ -87,12 +87,12 @@
                         android:id="@+id/yenile"
                         android:layout_width="85dp"
                         android:layout_height="match_parent"
-                        android:paddingStart="10dp"
-                        android:paddingEnd="10dp"
-                        android:focusable="true"
+                        android:background="?selectableItemBackground"
                         android:clickable="true"
+                        android:focusable="true"
                         android:orientation="vertical"
-                        android:background="?selectableItemBackground">
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp">
 
                         <RelativeLayout
                             android:layout_width="match_parent"
@@ -142,18 +142,11 @@
         <RelativeLayout
             android:id="@+id/layout"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_below="@+id/appBarLayout"
-            android:orientation="vertical">
-
-            <!--            <fragment-->
-            <!--                android:layout_width="match_parent"-->
-            <!--                android:layout_height="match_parent"-->
-            <!--                android:name="com.ahmetgezici.covid19app.MasterFragment"-->
-            <!--                android:id="@+id/ads" />-->
+            android:layout_height="0dp"
+            android:layout_weight="1">
 
         </RelativeLayout>
-    </RelativeLayout>
+    </LinearLayout>
 
     <com.mxn.soul.flowingdrawer_core.FlowingMenuLayout
         android:layout_width="match_parent"
@@ -165,6 +158,5 @@
             android:layout_height="match_parent">
 
         </FrameLayout>
-
     </com.mxn.soul.flowingdrawer_core.FlowingMenuLayout>
 </com.mxn.soul.flowingdrawer_core.FlowingDrawer>
