@@ -8,7 +8,7 @@ Widget:
 Bunu değiştirmek için `res > xml > covid_widget_info.xml` yoluna ulaşarak `android:updatePeriodMillis` değerini milisaniye cinsinden arttırabilir veya azaltabilirsiniz.
 
 Örneğin:
-```xml
+```
     android:updatePeriodMillis="14400000"
 ```
 
