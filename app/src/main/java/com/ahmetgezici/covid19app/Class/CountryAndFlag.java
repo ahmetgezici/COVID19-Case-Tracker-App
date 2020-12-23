@@ -438,6 +438,7 @@ public class CountryAndFlag {
         countryHashMap.put("Malawi", "Malavi");
         countryHashMap.put("Montserrat", "Montserrat");
         countryHashMap.put("Saint Vincent", "Saint Vincent ve Grenadinler");
+        countryHashMap.put("Saint Vincent and The Grenadines", "Saint Vincent ve Grenadinler");
         countryHashMap.put("Turks and Caicos Islands", "Turks ve Caicos Adaları");
         countryHashMap.put("Vatican City", "Vatikan");
         countryHashMap.put("Cape Verde", "Yeşil Burun Adaları");
