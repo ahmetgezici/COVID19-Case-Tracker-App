@@ -1,6 +1,6 @@
-# COVID19 Case Tracker App & AppWidget
+<img src="https://github.com/ahmetgezici/COVID19-Case-Tracker-App/blob/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" width=45% /> # COVID19 Case Tracker App & AppWidget
 
-<img src="https://github.com/ahmetgezici/COVID19-Case-Tracker-App/blob/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" /> #### Uygulama, en güncel COVID19 verilerine hızlı ve kolay biçimde ulaşmanızı sağlamaktadır. Bunun yanında AppWidget desteği sayesinde de Anasayfanıza ekleyeceğiniz Widget ile uygulamaya girmeksizin güncel verileri görmenizi sağlamaktadır.
+#### Uygulama, en güncel COVID19 verilerine hızlı ve kolay biçimde ulaşmanızı sağlamaktadır. Bunun yanında AppWidget desteği sayesinde de Anasayfanıza ekleyeceğiniz Widget ile uygulamaya girmeksizin güncel verileri görmenizi sağlamaktadır.
 
 Widget:
 - 3 Saatte bir otomatik olarak verileri güncellemektedir
