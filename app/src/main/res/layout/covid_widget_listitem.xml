@@ -39,7 +39,7 @@
                 android:fontFamily="@font/gilroy_black"
                 android:gravity="start|center_vertical"
                 android:textColor="@android:color/white"
-                android:textSize="14sp" />
+                android:textSize="13.5sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -67,7 +67,7 @@
                     android:fontFamily="@font/gilroy_extrabold"
                     android:gravity="center"
                     android:textColor="@android:color/white"
-                    android:textSize="13.5sp" />
+                    android:textSize="13.3sp" />
             </LinearLayout>
 
             <LinearLayout
@@ -90,7 +90,7 @@
                     android:fontFamily="@font/gilroy_extrabold"
                     android:gravity="center"
                     android:textColor="@android:color/white"
-                    android:textSize="13.5sp" />
+                    android:textSize="13.3sp" />
             </LinearLayout>
 
             <LinearLayout
@@ -113,7 +113,7 @@
                     android:fontFamily="@font/gilroy_extrabold"
                     android:gravity="center"
                     android:textColor="@android:color/white"
-                    android:textSize="13.5sp" />
+                    android:textSize="13.3sp" />
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
