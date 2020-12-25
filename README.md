@@ -1,6 +1,6 @@
 # COVID19 Case Tracker App & AppWidget 
 
-#### Uygulama, en güncel COVID19 verilerine hızlı ve kolay biçimde ulaşmanızı sağlamaktadır. Bunun yanında AppWidget desteği sayesinde de Anasayfanıza ekleyeceğiniz Widget ile uygulamaya girmeksizin güncel verileri görmenizi sağlamaktadır.
+#### Uygulama, en güncel COVID19 verilerine hızlı ve kolay bir biçimde ulaşmanızı sağlamaktadır. Bunun yanında AppWidget desteği sayesinde de Anasayfanıza ekleyeceğiniz Widget ile uygulamaya girmeksizin güncel verileri görebilirsiniz.
 
 Widget:
 - 3 Saatte bir otomatik olarak verileri güncellemektedir
@@ -8,7 +8,7 @@ Widget:
 Bunu değiştirmek için `res > xml > covid_widget_info.xml` yoluna ulaşarak `android:updatePeriodMillis` değerini milisaniye cinsinden arttırabilir veya azaltabilirsiniz.
 
 Örneğin:
-```
+```xml
     android:updatePeriodMillis="14400000"
 ```
 
