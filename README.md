@@ -18,9 +18,6 @@ Bunu değiştirmek için `res > xml > covid_widget_info.xml` yoluna ulaşarak `a
 ## Veri Kaynakları
 - [TC. Sağlık Bakanlığı](https://covid19.saglik.gov.tr)
 - [Wikipedia](https://en.m.wikipedia.org/wiki/COVID-19_pandemic_by_country_and_territory)
- 
-## İkon Kaynağı
-- [Flaticon](https://www.flaticon.com/)
 
 ## Kullanılan Kütüphaneler
 -   [OkHttp](https://square.github.io/okhttp/)
@@ -29,6 +26,9 @@ Bunu değiştirmek için `res > xml > covid_widget_info.xml` yoluna ulaşarak `a
 -   [Android-SpinKit](https://github.com/ybq/Android-SpinKit)
 -   [Material Components](https://github.com/material-components/material-components-android)
 -   [Recyclerview](https://developer.android.com/jetpack/androidx/releases/recyclerview)
+
+## İkon Paketi
+- [Flaticon](https://www.flaticon.com/)
 
 # Screenshot
 <img src="https://github.com/ahmetgezici/COVID19-Case-Tracker-App/blob/master/Screenshots/covidapp1.png" width=40% /> <img src="https://github.com/ahmetgezici/COVID19-Case-Tracker-App/blob/master/Screenshots/covidapp2.png" width=40% />
