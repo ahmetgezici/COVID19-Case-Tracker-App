@@ -1,12 +1,12 @@
-package com.ahmetgezici.covid19app.Service;
+package com.ahmetgezici.covid19app.service;
 
 import android.content.Context;
 import android.content.Intent;
 import android.widget.RemoteViews;
 import android.widget.RemoteViewsService;
 
-import com.ahmetgezici.covid19app.Class.CountryAndFlag;
 import com.ahmetgezici.covid19app.R;
+import com.ahmetgezici.covid19app.util.CountryAndFlag;
 
 
 public class ListViewService extends RemoteViewsService {

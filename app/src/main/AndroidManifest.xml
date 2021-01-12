@@ -17,7 +17,7 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
 
-        <receiver android:name=".CovidWidget">
+        <receiver android:name=".view.CovidWidget">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
             </intent-filter>
@@ -27,7 +27,7 @@
                 android:resource="@xml/covid_widget_info" />
         </receiver>
 
-        <activity android:name=".MainActivity">
+        <activity android:name=".view.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -36,12 +36,12 @@
         </activity>
 
         <service
-            android:name=".Service.ForeGroundService"
+            android:name=".service.ForeGroundService"
             android:enabled="true"
             android:exported="true" />
 
         <service
-            android:name=".Service.ListViewService"
+            android:name=".service.ListViewService"
             android:configChanges="orientation|screenSize"
             android:enabled="true"
             android:exported="true"

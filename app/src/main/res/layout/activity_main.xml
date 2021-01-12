@@ -9,7 +9,7 @@
     app:edMenuBackground="#353149"
     app:edMenuSize="260dp"
     app:edPosition="1"
-    tools:context=".MainActivity">
+    tools:context=".view.MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"

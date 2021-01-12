@@ -1,4 +1,4 @@
-package com.ahmetgezici.covid19app.Class;
+package com.ahmetgezici.covid19app.util;
 
 import com.ahmetgezici.covid19app.R;
 
@@ -278,7 +278,8 @@ public class CountryAndFlag {
         flagHashMap.put("Samoa", R.drawable.samoa);
         flagHashMap.put("Amerikan Samoası", R.drawable.american_samoa);
         flagHashMap.put("SeaDream I", R.drawable.cruise);
-
+        flagHashMap.put("Mikronezya", R.drawable.micronesia);
+        flagHashMap.put("Antartika", R.drawable.antarctica);
     }
 
     private static void countrySet() {
@@ -429,7 +430,7 @@ public class CountryAndFlag {
         countryHashMap.put("Saint Kitts and Nevis", "Saint Kitts ve Nevis");
         countryHashMap.put("Seychelles", "Seyşeller");
         countryHashMap.put("Greenland", "Grönland");
-        countryHashMap.put("Northern Mariana Islands ", "Kuzey Mariana Adaları");
+        countryHashMap.put("Northern Mariana Islands", "Kuzey Mariana Adaları");
         countryHashMap.put("Suriname", "Surinam");
         countryHashMap.put("Akrotiri and Dhekelia", "Ağrotur ve Dikelya");
         countryHashMap.put("Chad", "Çad");
@@ -467,5 +468,7 @@ public class CountryAndFlag {
         countryHashMap.put("Saint Pierre and Miquelon", "Saint Pierre ve Miquelon");
         countryHashMap.put("Marshall Islands", "Marshall Adaları");
         countryHashMap.put("American Samoa", "Amerikan Samoası");
+        countryHashMap.put("Federated States of Micronesia", "Mikronezya");
+        countryHashMap.put("Antarctica", "Antartika");
     }
 }

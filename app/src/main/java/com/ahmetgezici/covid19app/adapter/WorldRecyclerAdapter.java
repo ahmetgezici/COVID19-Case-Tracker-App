@@ -1,4 +1,4 @@
-package com.ahmetgezici.covid19app.Adapter;
+package com.ahmetgezici.covid19app.adapter;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,8 +9,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.ahmetgezici.covid19app.Class.CountryAndFlag;
 import com.ahmetgezici.covid19app.R;
+import com.ahmetgezici.covid19app.util.CountryAndFlag;
 
 
 public class WorldRecyclerAdapter extends RecyclerView.Adapter<WorldRecyclerAdapter.ViewHolder> {

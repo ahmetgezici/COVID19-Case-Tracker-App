@@ -1,4 +1,4 @@
-package com.ahmetgezici.covid19app;
+package com.ahmetgezici.covid19app.view;
 
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
@@ -11,7 +11,8 @@ import android.os.Build;
 import android.os.StrictMode;
 import android.widget.RemoteViews;
 
-import com.ahmetgezici.covid19app.Service.ForeGroundService;
+import com.ahmetgezici.covid19app.R;
+import com.ahmetgezici.covid19app.service.ForeGroundService;
 
 public class CovidWidget extends AppWidgetProvider {
 

@@ -1,4 +1,4 @@
-package com.ahmetgezici.covid19app;
+package com.ahmetgezici.covid19app.view;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
@@ -9,8 +9,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.FragmentManager;
 
-import com.ahmetgezici.covid19app.Class.MenuListFragment;
+import com.ahmetgezici.covid19app.R;
 import com.ahmetgezici.covid19app.databinding.ActivityMainBinding;
+import com.ahmetgezici.covid19app.util.MenuListFragment;
 import com.mxn.soul.flowingdrawer_core.ElasticDrawer;
 
 public class MainActivity extends AppCompatActivity {

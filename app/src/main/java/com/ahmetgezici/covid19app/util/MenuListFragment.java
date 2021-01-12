@@ -1,4 +1,4 @@
-package com.ahmetgezici.covid19app.Class;
+package com.ahmetgezici.covid19app.util;
 
 import android.content.Intent;
 import android.net.Uri;

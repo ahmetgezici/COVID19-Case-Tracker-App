@@ -1,4 +1,4 @@
-package com.ahmetgezici.covid19app.Model;
+package com.ahmetgezici.covid19app.model;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;

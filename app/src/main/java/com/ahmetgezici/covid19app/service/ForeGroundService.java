@@ -1,4 +1,4 @@
-package com.ahmetgezici.covid19app.Service;
+package com.ahmetgezici.covid19app.service;
 
 import android.annotation.SuppressLint;
 import android.app.Notification;
@@ -29,11 +29,11 @@ import android.widget.Toast;
 
 import androidx.core.app.NotificationCompat;
 
-import com.ahmetgezici.covid19app.Class.CountryAndFlag;
-import com.ahmetgezici.covid19app.CovidWidget;
-import com.ahmetgezici.covid19app.MainActivity;
-import com.ahmetgezici.covid19app.Model.CovidData;
 import com.ahmetgezici.covid19app.R;
+import com.ahmetgezici.covid19app.model.CovidData;
+import com.ahmetgezici.covid19app.util.CountryAndFlag;
+import com.ahmetgezici.covid19app.view.CovidWidget;
+import com.ahmetgezici.covid19app.view.MainActivity;
 import com.google.gson.Gson;
 
 import java.io.IOException;

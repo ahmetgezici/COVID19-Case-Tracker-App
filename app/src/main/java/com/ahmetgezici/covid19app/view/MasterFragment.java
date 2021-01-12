@@ -1,4 +1,4 @@
-package com.ahmetgezici.covid19app;
+package com.ahmetgezici.covid19app.view;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -34,10 +34,11 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.LinearSmoothScroller;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.ahmetgezici.covid19app.Adapter.WorldRecyclerAdapter;
-import com.ahmetgezici.covid19app.Class.CountryAndFlag;
-import com.ahmetgezici.covid19app.Model.CovidData;
+import com.ahmetgezici.covid19app.R;
+import com.ahmetgezici.covid19app.adapter.WorldRecyclerAdapter;
 import com.ahmetgezici.covid19app.databinding.FragmentMasterBinding;
+import com.ahmetgezici.covid19app.model.CovidData;
+import com.ahmetgezici.covid19app.util.CountryAndFlag;
 import com.google.gson.Gson;
 
 import java.io.IOException;
